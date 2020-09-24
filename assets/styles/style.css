@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
 
-@import "./_default.css";
-@import "./_helpers.css";
-@import "./_media.css";
+@import './_default.css';
+@import './_helpers.css';
+@import './_media.css';
 
 :root {
   /* Colors */
@@ -22,7 +22,11 @@
   --big-size: 1.5em;
   --p-size: 16px;
   --shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  --gradient: linear-gradient(0deg, rgba(71, 117, 229, 1) 0%, rgba(141, 83, 233, 1) 100%);
+  --gradient: linear-gradient(
+    0deg,
+    rgba(71, 117, 229, 1) 0%,
+    rgba(141, 83, 233, 1) 100%
+  );
 }
 
 * {
@@ -33,7 +37,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -57,7 +61,7 @@ body {
 }
 
 .header-content {
-  background-image: url("../img/bg.png");
+  background-image: url('../img/bg.png');
   background-repeat: repeat-x;
   background-position: center center;
   background-attachment: fixed;
@@ -96,7 +100,7 @@ h4 {
 
 .size-table {
   /* height: 50vh; */
-  background-image: url("../img/table_bg.png");
+  background-image: url('../img/table_bg.png');
   background-repeat: repeat-x;
   background-position: center center;
   background-attachment: fixed;
@@ -107,4 +111,8 @@ h4 {
   background: var(--white);
   padding: 30px;
   overflow-x: auto;
+}
+
+.buy {
+  background-color: var(--light-pink);
 }
